@@ -29,7 +29,7 @@ plugins {
 }
 
 group = "dev.mtctx.library"
-version = "1.0.0"
+version = "1.0.1"
 
 repositories {
     mavenCentral()
@@ -38,7 +38,7 @@ repositories {
 dependencies {
     api("org.jetbrains.kotlinx:kotlinx-serialization-json:1.9.0")
     api("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
-    api("dev.mtctx.library:utilities:1.0.0")
+    api("dev.mtctx.library:utilities:1.0.1")
     implementation("org.jetbrains.dokka:dokka-gradle-plugin:2.1.0-Beta")
 }
 
