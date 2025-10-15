@@ -43,7 +43,7 @@ dependencies {
 }
 
 mavenPublishing {
-    coordinates(group.toString(), "plugabble", version.toString())
+    coordinates(group.toString(), "pluggable", version.toString())
 
     pom {
         name.set("Pluggable")
@@ -95,8 +95,8 @@ dokka {
     dokkaSourceSets.configureEach {
         jdkVersion.set(21)
         sourceLink {
-            localDirectory.set(file("${project.name}/src/main/kotlin"))
-            remoteUrl.set(uri("https://github.com/mtctx/Squishy/tree/main/${project.name}/src/main/kotlin/"))
+            localDirectory.set(file("src/main/kotlin"))
+            remoteUrl.set(uri("https://github.com/mtctx/Pluggable/blob/main/src/main/kotlin/mtctx/pluggable/"))
             remoteLineSuffix.set("#L")
         }
     }
