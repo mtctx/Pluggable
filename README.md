@@ -45,7 +45,7 @@ handling** via the `Outcome` utility class.
 
 ## Installation
 
-Pluggable will be available via **Maven Central** once published.
+Pluggable is available via **Maven Central**.
 
 ### Dependencies
 
@@ -60,10 +60,10 @@ repositories {
 }
 
 dependencies {
-    // Core Pluggable library (assuming a coordinate like this)
+    // Pluggable library
     implementation("dev.mtctx.library:pluggable:1.0.0")
 
-    // Required for configuration serialization
+    // Required for configuration serialization, can also use any other serialization library as long as it supports Kotlinx Serialization
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.0")
 }
 ```
